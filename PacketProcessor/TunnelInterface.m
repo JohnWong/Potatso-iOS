@@ -16,7 +16,7 @@
 #import "inet_chksum.h"
 #import "tun2socks/tun2socks.h"
 
-#define kTunnelInterfaceErrorDomain @"com.touchingapp.potatso.TunnelInterface"
+#define kTunnelInterfaceErrorDomain @"com.johnwong.potatso.TunnelInterface"
 
 @interface TunnelInterface () <GCDAsyncUdpSocketDelegate>
 @property (nonatomic) NEPacketTunnelFlow *tunnelPacketFlow;

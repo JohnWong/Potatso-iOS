@@ -48,7 +48,7 @@
 }
 
 - (void)setupWormhole {
-    self.wormhole = [[MMWormhole alloc] initWithApplicationGroupIdentifier:@"group.com.touchingapp.potatso" optionalDirectory:@"wormhole"];
+    self.wormhole = [[MMWormhole alloc] initWithApplicationGroupIdentifier:@"group.com.johnwong.potatso" optionalDirectory:@"wormhole"];
     __weak typeof(self) weakSelf = self;
     [self.wormhole listenForMessageWithIdentifier:@"getTunnelStatus" listener:^(id  _Nullable messageObject) {
         [weakSelf.wormhole passMessageObject:@"ok" identifier:@"tunnelStatus"];

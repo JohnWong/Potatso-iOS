@@ -78,7 +78,7 @@ int sock_port (int fd) {
         self.socksProxyPort = sock_port(fd);
         self.socksProxyRunning = YES;
     }else {
-        error = [NSError errorWithDomain:@"com.touchingapp.potatso" code:100 userInfo:@{NSLocalizedDescriptionKey: @"Fail to start socks proxy"}];
+        error = [NSError errorWithDomain:@"com.johnwong.potatso" code:100 userInfo:@{NSLocalizedDescriptionKey: @"Fail to start socks proxy"}];
     }
     if (self.socksCompletion) {
         self.socksCompletion(self.socksProxyPort, error);
@@ -129,7 +129,7 @@ int sock_port (int fd) {
         self.shadowsocksProxyPort = sock_port(fd);
         self.shadowsocksProxyRunning = YES;
     }else {
-        error = [NSError errorWithDomain:@"com.touchingapp.potatso" code:100 userInfo:@{NSLocalizedDescriptionKey: @"Fail to start http proxy"}];
+        error = [NSError errorWithDomain:@"com.johnwong.potatso" code:100 userInfo:@{NSLocalizedDescriptionKey: @"Fail to start http proxy"}];
     }
     if (self.shadowsocksCompletion) {
         self.shadowsocksCompletion(self.shadowsocksProxyPort, error);
@@ -169,7 +169,7 @@ int sock_port (int fd) {
         self.httpProxyPort = sock_port(fd);
         self.httpProxyRunning = YES;
     }else {
-        error = [NSError errorWithDomain:@"com.touchingapp.potatso" code:100 userInfo:@{NSLocalizedDescriptionKey: @"Fail to start http proxy"}];
+        error = [NSError errorWithDomain:@"com.johnwong.potatso" code:100 userInfo:@{NSLocalizedDescriptionKey: @"Fail to start http proxy"}];
     }
     if (self.httpCompletion) {
         self.httpCompletion(self.httpProxyPort, error);

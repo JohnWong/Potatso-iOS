@@ -324,7 +324,7 @@
 				INFOPLIST_FILE = Aspects/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.touchingapp.Aspects;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnwong.Aspects;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -342,7 +342,7 @@
 				INFOPLIST_FILE = Aspects/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.touchingapp.Aspects;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnwong.Aspects;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -353,7 +353,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = AspectsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.touchingapp.AspectsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnwong.AspectsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -363,7 +363,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = AspectsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.touchingapp.AspectsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnwong.AspectsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
